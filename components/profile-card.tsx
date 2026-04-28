@@ -53,8 +53,8 @@ interface ProfileCardProps {
 
 export default function ProfileCard({ userName }: ProfileCardProps) {
     return (
-        <div className="lg:min-h-screen bg-background lg:flex items-center justify-center lg:p-4">
-            <Card className="lg:w-full lg:max-w-md overflow-hidden lg:shadow-2xl border-0 p-0 rounded-none lg:rounded-lg">
+        <div className="min-h-dvh bg-background lg:flex items-center justify-center lg:p-4 overflow-x-hidden">
+            <Card className="w-full lg:max-w-md overflow-hidden lg:shadow-2xl border-0 p-0 rounded-none lg:rounded-lg">
                 {/* Header with Logo */}
                 <div className="bg-primary p-8 flex flex-col items-center">
                     <div className="w-28 h-28 rounded-full bg-card flex items-center justify-center shadow-lg mb-4 overflow-hidden">

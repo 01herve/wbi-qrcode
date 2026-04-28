@@ -4,6 +4,13 @@
 
 @custom-variant dark (&:is(.dark *));
 
+html,
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
 
 :root {
   --background: oklch(0.98 0 0);
