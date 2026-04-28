@@ -45,11 +45,10 @@ export function RegistrationForm({ onSubmit }: RegistrationFormProps) {
 
     return (
         <div className="min-h-screen bg-background flex items-center justify-center p-4">
-            <Card className="w-full max-w-md overflow-hidden shadow-2xl border-0">
+            <Card className="w-full overflow-hidden shadow-2xl border-0">
                 {/* Header */}
                 <div className="bg-primary p-8 flex flex-col items-center">
                     <div className="w-24 h-24 rounded-full bg-card flex items-center justify-center shadow-lg mb-4 overflow-hidden">
-
                         <Image
                             src="/apple-icon.png"
                             width={180}
@@ -57,7 +56,6 @@ export function RegistrationForm({ onSubmit }: RegistrationFormProps) {
                             className="h-10 w-auto"
                             alt="logo"
                         />
-
 
                     </div>
                     <h1 className="text-xl font-bold text-primary-foreground text-center text-balance">
