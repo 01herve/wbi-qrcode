@@ -44,7 +44,7 @@ export function RegistrationForm({ onSubmit }: RegistrationFormProps) {
     }
 
     return (
-        <div className="min-h-screen bg-background flex items-center justify-center p-4">
+        <div className="min-h-screen bg-background flex items-center justify-center">
             <Card className="w-full overflow-hidden shadow-2xl border-0">
                 {/* Header */}
                 <div className="bg-primary p-8 flex flex-col items-center">
