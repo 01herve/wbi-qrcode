@@ -98,23 +98,28 @@ export default function Home() {
 
   return (
     <main>
-      {view === "register" && <RegistrationForm onSubmit={handleRegistration} />}
+      {userData ? (
+        <>
+          {view === "agenda" && (
+            <AgendaPage
+              userName={userData?.fullName}
+              userKey={userData?.phoneNumber}
+              onNavigateSocial={() => setView("social")}
+              onNavigateAbout={() => setView("about")}
+            />
+          )}
 
-      {view === "agenda" && (
-        <AgendaPage
-          userName={userData?.fullName}
-          userKey={userData?.phoneNumber}
-          onNavigateSocial={() => setView("social")}
-          onNavigateAbout={() => setView("about")}
-        />
+          {view === "social" && (
+            <ProfileCard userName={userData?.fullName} onBack={() => setView("agenda")} />
+            // <ProfileCard userName={userData?.fullName} />
+          )}
+
+          {view === "about" && <AboutPage onBack={() => setView("agenda")} />}
+        </>
+      ) : (
+        <RegistrationForm onSubmit={handleRegistration} />
       )}
-
-      {view === "social" && (
-        <ProfileCard userName={userData?.fullName} onBack={() => setView("agenda")} />
-        // <ProfileCard userName={userData?.fullName} />
-      )}
-
-      {view === "about" && <AboutPage onBack={() => setView("agenda")} />}
     </main>
+
   )
 }
