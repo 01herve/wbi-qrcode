@@ -70,16 +70,17 @@ type View = "register" | "agenda" | "social" | "about"
 
 export default function Home() {
   const [userData, setUserData] = useState<UserData | null>(null)
-  const [view, setView] = useState<View>("register")
+  const [view, setView] = useState<View>("agenda")
 
   //   // Charger au démarrage
-  useEffect(() => {
-    const savedUser = localStorage.getItem("userData")
+useEffect(() => {
+  const savedUser = localStorage.getItem("userData")
 
-    if (savedUser) {
-      setUserData(JSON.parse(savedUser))
-    }
-  }, [])
+  if (savedUser) {
+    setUserData(JSON.parse(savedUser))
+    setView("agenda")
+  }
+}, [])
 
   const handleRegistration = (data: UserData) => {
     addProfile(data)
