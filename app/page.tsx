@@ -101,8 +101,10 @@ useEffect(() => {
 
   return (
     <main>
-      {userData ? (
-        <>
+      {
+      
+      userData ? (
+      <>
           {view === "agenda" && (
             <AgendaPage
               userName={userData?.fullName}
@@ -121,7 +123,9 @@ useEffect(() => {
         </>
       ) : (
         <RegistrationForm onSubmit={handleRegistration} />
-      )}
+  
+      )
+      }
     </main>
 
   )

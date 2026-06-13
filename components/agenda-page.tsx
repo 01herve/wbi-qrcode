@@ -152,8 +152,8 @@ export function AgendaPage({ userName, userKey, onNavigateSocial, onNavigateAbou
   if (selectedActivity) {
     const isReminderOn = !!reminders[selectedActivity.id]
     return (
-        <div className="min-h-dvh bg-background lg:flex items-center justify-center lg:p-4 overflow-x-hidden">
-            <Card className="w-full lg:max-w-md overflow-hidden lg:shadow-2xl border-0 p-0 rounded-none lg:rounded-lg">s
+      <div className="min-h-dvh bg-background lg:flex items-center justify-center lg:p-4 overflow-x-hidden">
+        <Card className="w-full lg:max-w-md overflow-hidden lg:shadow-2xl border-0 p-0 rounded-none lg:rounded-lg">
           {/* Photo header */}
           <div className="relative w-full bg-foreground/5 flex items-center justify-center">
             <img
@@ -219,11 +219,10 @@ export function AgendaPage({ userName, userKey, onNavigateSocial, onNavigateAbou
             {/* Reminder toggle */}
             <Button
               onClick={() => toggleReminder(selectedActivity.id)}
-              className={`w-full h-14 text-base font-medium transition-all duration-200 active:scale-95 justify-center ${
-                isReminderOn
+              className={`w-full h-14 text-base font-medium transition-all duration-200 active:scale-95 justify-center ${isReminderOn
                   ? "bg-foreground text-card hover:bg-foreground/90"
                   : "bg-primary text-primary-foreground hover:bg-primary/90"
-              }`}
+                }`}
             >
               {isReminderOn ? (
                 <>
@@ -265,8 +264,8 @@ export function AgendaPage({ userName, userKey, onNavigateSocial, onNavigateAbou
   }
 
   return (
-    <div className="min-h-screen bg-background flex items-center justify-center p-4">
-      <Card className="w-full max-w-md overflow-hidden shadow-2xl border-0">
+      <div className="min-h-dvh bg-background lg:flex items-center justify-center lg:p-4 overflow-x-hidden">
+        <Card className="w-full lg:max-w-md overflow-hidden lg:shadow-2xl border-0 p-0 rounded-none lg:rounded-lg">
         {/* Header */}
         <div className="bg-primary p-6 flex flex-col items-center">
           <div className="flex items-center gap-2 text-primary-foreground/80 text-xs uppercase tracking-wider mb-2">
