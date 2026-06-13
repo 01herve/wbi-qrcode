@@ -1,5 +1,5 @@
 
-import { Phone, Globe, MessageCircle } from "lucide-react"
+import { Phone, Globe, MessageCircle, ArrowLeft } from "lucide-react"
 import { Card, CardContent } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { FaFacebookSquare, FaInstagram, FaLinkedin, FaYoutube } from "react-icons/fa";
@@ -49,9 +49,10 @@ const socialLinks = [
 
 interface ProfileCardProps {
     userName?: string
+     onBack?: () => void
 }
 
-export default function ProfileCard({ userName }: ProfileCardProps) {
+export default function ProfileCard({ userName, onBack }: ProfileCardProps) {
     return (
         <div className="min-h-dvh bg-background lg:flex items-center justify-center lg:p-4 overflow-x-hidden">
             <Card className="w-full lg:max-w-md overflow-hidden lg:shadow-2xl border-0 p-0 rounded-none lg:rounded-lg">
@@ -152,6 +153,25 @@ export default function ProfileCard({ userName }: ProfileCardProps) {
                             © 2026 Bureau Wallonie-Bruxelles
                         </p>
                     </div>
+
+
+  {/* Footer */}
+          <div className="pt-4 border-t border-border space-y-4">
+            {onBack && (
+              <Button
+                onClick={onBack}
+                variant="outline"
+                className="w-full h-12 text-sm font-medium border-2 border-foreground text-foreground hover:bg-foreground hover:text-card transition-all duration-200 active:scale-95"
+              >
+                <ArrowLeft className="w-4 h-4 mr-2" />
+                Retour à l&apos;agenda
+              </Button>
+            )}
+            <p className="text-center text-xs text-muted-foreground">
+              © 2026 Bureau Wallonie-Bruxelles
+            </p>
+          </div>
+
                 </CardContent>
             </Card>
         </div>

@@ -3,6 +3,7 @@
 import { db } from "@/lib/db";
 import { UserData } from "../page";
 
+
 export async function addProfile(params: UserData) {
   const { fullName, phoneNumber } = params;
 
