@@ -15,7 +15,7 @@ interface Activity {
   month: string
   time: string
   location: string
-  type: "Éducation" | "Éloquence" | "Formation" | "Culture" | "Musique"
+  type: "Éducation" | "Éloquence" | "Formation" | "Culture" | "Musique" | "Littérature"
   entry?: string
 }
 
@@ -33,6 +33,19 @@ const activities: Activity[] = [
     time: "Du 11 au 19 juin, 9h00 - 15h00",
     location: "Bureau Wallonie-Bruxelles",
     type: "Formation",
+  },
+   {
+    id: "5",
+    title: "VERNISSAGE DU RÉCIT « FEMMES D'EXCEPTION DE LA R.D.C. DEPUIS 1960 »",
+    description:
+      "Présentation du récit « Femmes d'exception de la R.D.C. depuis 1960 » de Paul Tshilembe Tshiwewe, un ouvrage consacré aux parcours de femmes congolaises ayant marqué l'histoire du pays depuis l'indépendance.",
+    image: "/activities/vernissage.png",
+    date: "2026-06-22",
+    day: "22",
+    month: "Juin",
+    time: "Lundi 22 juin, 14h30",
+    location: "Bureau Wallonie-Bruxelles",
+    type: "Littérature",
   },
   {
     id: "6",
@@ -107,6 +120,7 @@ const typeColors: Record<Activity["type"], string> = {
   "Formation": "bg-[#0A66C2]/10 text-[#0A66C2]",
   "Culture": "bg-[#25D366]/15 text-[#1a9c4b]",
   "Musique": "bg-[#E1306C]/10 text-[#E1306C]",
+  "Littérature": "bg-[#FF4500]/10 text-[#FF4500]",
 }
 
 interface AgendaPageProps {
