@@ -85,6 +85,8 @@ export default function Home() {
     addProfile(data)
       .then((res) => {
         setUserData(res)
+         localStorage.removeItem("userData")
+
         localStorage.setItem("userData", JSON.stringify(res))
         setView("agenda")
       })
