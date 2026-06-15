@@ -35,7 +35,7 @@ const activities: Activity[] = [
     type: "Formation",
   },
    {
-    id: "5",
+    id: "6",
     title: "VERNISSAGE DU RÉCIT « FEMMES D'EXCEPTION DE LA R.D.C. DEPUIS 1960 »",
     description:
       "Présentation du récit « Femmes d'exception de la R.D.C. depuis 1960 » de Paul Tshilembe Tshiwewe, un ouvrage consacré aux parcours de femmes congolaises ayant marqué l'histoire du pays depuis l'indépendance.",
@@ -48,7 +48,7 @@ const activities: Activity[] = [
     type: "Littérature",
   },
   {
-    id: "6",
+    id: "5",
     title: "Fête de la Musique",
     description:
       "Dans le cadre de la célébration de la Journée Internationale de la Musique célébrée le 21 juin, le Bureau Wallonie-Bruxelles organise un concert musical avec l'orchestre Negro Spiritual, l'orchestre Golden et l'artiste Mjoe ZUKA. Cette soirée sera l'occasion pour le public de découvrir des univers musicaux variés à travers des prestations mettant à l'honneur le talent, la créativité et la richesse des expressions musicales. Un rendez-vous placé sous le signe du partage, de la convivialité et de la célébration de la musique dans toute sa diversité.",
@@ -75,9 +75,9 @@ const activities: Activity[] = [
   },
   {
     id: "8",
-    title: "Soirée Rumba — Park Musica",
+    title: "Soirée Rumba Lipanda",
     description:
-      "Célébrons la rumba congolaise ! L'orchestre du Park Musica propose une soirée unique pour honorer ce patrimoine culturel vivant. Venez partager un moment festif et convivial autour d'un répertoire qui mélange grands classiques, sonorités contemporaines et nouveautés. Un rendez-vous idéal pour tous les passionnés de la Rumba et de danse.",
+      "Le Bureau Wallonie-Bruxelles organise la soirée « Rumba Lipanda », animée par l’orchestre Park Musica et le groupe Mambo Ya Bien. Cette soirée mettra à l'honneur la rumba congolaise à travers un répertoire mêlant grands classiques, sonorités contemporaines et nouveautés, dans une ambiance propice à la danse et à la célébration de ce patrimoine musical.",
     image: "/activities/rumba.png",
     date: "2026-06-26",
     day: "26",
