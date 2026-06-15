@@ -69,7 +69,7 @@ const activities: Activity[] = [
     date: "2026-06-24",
     day: "24",
     month: "Juin",
-    time: "Mercredi 24 juin, 16h00",
+    time: "Mercredi 24 juin, 17h07",
     location: "Bureau Wallonie-Bruxelles",
     type: "Éloquence",
   },
