@@ -34,21 +34,9 @@ const activities: Activity[] = [
     location: "Bureau Wallonie-Bruxelles",
     type: "Formation",
   },
-   {
-    id: "6",
-    title: "VERNISSAGE DU RÉCIT « FEMMES D'EXCEPTION DE LA R.D.C. DEPUIS 1960 »",
-    description:
-      "Présentation du récit « Femmes d'exception de la R.D.C. depuis 1960 » de Paul Tshilembe Tshiwewe, un ouvrage consacré aux parcours de femmes congolaises ayant marqué l'histoire du pays depuis l'indépendance.",
-    image: "/activities/vernissage.png",
-    date: "2026-06-22",
-    day: "22",
-    month: "Juin",
-    time: "Lundi 22 juin, 14h30",
-    location: "Bureau Wallonie-Bruxelles",
-    type: "Littérature",
-  },
+  
   {
-    id: "5",
+    id: "6",
     title: "Fête de la Musique",
     description:
       "Dans le cadre de la célébration de la Fête de la Musique célébrée le 21 juin, le Bureau Wallonie-Bruxelles organise un concert musical avec l'orchestre Negro Spiritual, l'orchestre Golden et l'artiste Mjoe ZUKA. Cette soirée sera l'occasion pour le public de découvrir des univers musicaux variés à travers des prestations mettant à l'honneur le talent, la créativité et la richesse des expressions musicales. Un rendez-vous placé sous le signe du partage, de la convivialité et de la célébration de la musique dans toute sa diversité.",
@@ -59,6 +47,19 @@ const activities: Activity[] = [
     time: "Dimanche 21 juin, 18h00",
     location: "Bureau Wallonie-Bruxelles",
     type: "Musique",
+  },
+   {
+    id: "5",
+    title: "VERNISSAGE DU RÉCIT « FEMMES D'EXCEPTION DE LA R.D.C. DEPUIS 1960 »",
+    description:
+      "Présentation du récit « Femmes d'exception de la R.D.C. depuis 1960 » de Paul Tshilembe Tshiwewe, un ouvrage consacré aux parcours de femmes congolaises ayant marqué l'histoire du pays depuis l'indépendance.",
+    image: "/activities/vernissage.png",
+    date: "2026-06-22",
+    day: "22",
+    month: "Juin",
+    time: "Lundi 22 juin, 14h30",
+    location: "Bureau Wallonie-Bruxelles",
+    type: "Littérature",
   },
   {
     id: "7",
