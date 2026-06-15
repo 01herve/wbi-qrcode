@@ -51,7 +51,7 @@ const activities: Activity[] = [
     id: "5",
     title: "Fête de la Musique",
     description:
-      "Dans le cadre de la célébration de la Journée Internationale de la Musique célébrée le 21 juin, le Bureau Wallonie-Bruxelles organise un concert musical avec l'orchestre Negro Spiritual, l'orchestre Golden et l'artiste Mjoe ZUKA. Cette soirée sera l'occasion pour le public de découvrir des univers musicaux variés à travers des prestations mettant à l'honneur le talent, la créativité et la richesse des expressions musicales. Un rendez-vous placé sous le signe du partage, de la convivialité et de la célébration de la musique dans toute sa diversité.",
+      "Dans le cadre de la célébration de la Fête de la Musique célébrée le 21 juin, le Bureau Wallonie-Bruxelles organise un concert musical avec l'orchestre Negro Spiritual, l'orchestre Golden et l'artiste Mjoe ZUKA. Cette soirée sera l'occasion pour le public de découvrir des univers musicaux variés à travers des prestations mettant à l'honneur le talent, la créativité et la richesse des expressions musicales. Un rendez-vous placé sous le signe du partage, de la convivialité et de la célébration de la musique dans toute sa diversité.",
     image: "/activities/fete-musique.png",
     date: "2026-06-21",
     day: "21",
