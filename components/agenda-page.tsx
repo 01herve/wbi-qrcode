@@ -297,30 +297,6 @@ export function AgendaPage({ userName, userKey, onNavigateSocial, onNavigateAbou
           )}
         </div>
 
-                  {/* Navigation buttons */}
-          <div className="space-y-3 pt-2">
-            <Button
-              onClick={onNavigateSocial}
-              className="w-full h-14 text-base font-medium bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-200 active:scale-95 justify-between"
-            >
-              <span className="flex items-center">
-                <Share2 className="w-5 h-5 mr-2" />
-                Réseaux sociaux
-              </span>
-              <ArrowRight className="w-5 h-5" />
-            </Button>
-            <Button
-              onClick={onNavigateAbout}
-              variant="outline"
-              className="w-full h-14 text-base font-medium border-2 border-foreground text-foreground hover:bg-foreground hover:text-card transition-all duration-200 active:scale-95 justify-between"
-            >
-              <span className="flex items-center">
-                <Info className="w-5 h-5 mr-2" />
-                Qui sommes-nous
-              </span>
-              <ArrowRight className="w-5 h-5" />
-            </Button>
-          </div>
 
         <CardContent className="p-5 space-y-5">
           {/* My reminders */}
@@ -365,6 +341,31 @@ export function AgendaPage({ userName, userKey, onNavigateSocial, onNavigateAbou
               </p>
             </div>
           )}
+
+                          {/* Navigation buttons */}
+          <div className="space-y-3 pt-2">
+            <Button
+              onClick={onNavigateSocial}
+              className="w-full h-14 text-base font-medium bg-primary hover:bg-primary/90 text-primary-foreground transition-all duration-200 active:scale-95 justify-between"
+            >
+              <span className="flex items-center">
+                <Share2 className="w-5 h-5 mr-2" />
+                Réseaux sociaux
+              </span>
+              <ArrowRight className="w-5 h-5" />
+            </Button>
+            <Button
+              onClick={onNavigateAbout}
+              variant="outline"
+              className="w-full h-14 text-base font-medium border-2 border-foreground text-foreground hover:bg-foreground hover:text-card transition-all duration-200 active:scale-95 justify-between"
+            >
+              <span className="flex items-center">
+                <Info className="w-5 h-5 mr-2" />
+                Qui sommes-nous
+              </span>
+              <ArrowRight className="w-5 h-5" />
+            </Button>
+          </div>
 
           {/* Activities list */}
           <div className="space-y-4">
