@@ -24,7 +24,7 @@ const socialLinks = [
     {
         icon: FaFacebookSquare,
         label: "Facebook",
-        href: "https://www.facebook.com/pg/WallonieBruxellesALubumbashi/",
+        href: "https://www.facebook.com/share/18grrZcWC8/",
         color: "bg-[#1877F2] hover:bg-[#1877F2]/90",
     },
     {
