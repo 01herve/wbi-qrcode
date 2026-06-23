@@ -22,46 +22,6 @@ interface Activity {
 const activities: Activity[] = [
 
   {
-    id: "2",
-    title: "Formation Vidéo / Tech Audio Live",
-    description:
-      "Formation technique et pratique animée par Mathias Delvecchio, vidéaste et réalisateur belge, et Amaury Ruell, ingénieur du son et producteur musical belge. Ces ateliers intensifs offriront à 20 jeunes techniciens et vidéastes de Lubumbashi l'opportunité d'améliorer leurs techniques de captation vidéo, de sonorisation live et de production audiovisuelle appliquées aux événements culturels, artistiques et médiatiques, à travers des exercices pratiques et des mises en situation réelles. Cette démarche valorise la collaboration entre la Belgique et la RDC, tout en favorisant la transmission des compétences, le partage d'expertise et le renforcement des capacités des jeunes professionnels du secteur audiovisuel.",
-    image: "/activities/video-audio.png",
-    date: "2026-06-11",
-    day: "11",
-    month: "Juin",
-    time: "Du 11 au 19 juin, 9h00 - 15h00",
-    location: "Bureau Wallonie-Bruxelles",
-    type: "Formation",
-  },
-  
-  {
-    id: "13",
-    title: "Fête de la Musique",
-    description:
-      "Dans le cadre de la célébration de la Fête de la Musique célébrée le 21 juin, le Bureau Wallonie-Bruxelles organise un concert musical avec l'orchestre Negro Spiritual, l'orchestre Golden et l'artiste Mjoe ZUKA. Cette soirée sera l'occasion pour le public de découvrir des univers musicaux variés à travers des prestations mettant à l'honneur le talent, la créativité et la richesse des expressions musicales. Un rendez-vous placé sous le signe du partage, de la convivialité et de la célébration de la musique dans toute sa diversité.",
-    image: "/activities/fete-musique.png",
-    date: "2026-06-21",
-    day: "21",
-    month: "Juin",
-    time: "Dimanche 21 juin, 18h00",
-    location: "Bureau Wallonie-Bruxelles",
-    type: "Musique",
-  },
-   {
-    id: "5",
-    title: "VERNISSAGE DU RÉCIT « FEMMES D'EXCEPTION DE LA R.D.C. DEPUIS 1960 »",
-    description:
-      "Présentation du récit « Femmes d'exception de la R.D.C. depuis 1960 » de Paul Tshilembe Tshiwewe, un ouvrage consacré aux parcours de femmes congolaises ayant marqué l'histoire du pays depuis l'indépendance.",
-    image: "/activities/vernissage.png",
-    date: "2026-06-22",
-    day: "22",
-    month: "Juin",
-    time: "Lundi 22 juin, 14h30",
-    location: "Bureau Wallonie-Bruxelles",
-    type: "Littérature",
-  },
-  {
     id: "7",
     title: "Slam : Spectacle « La Vie en Prose »",
     description:
@@ -285,7 +245,7 @@ export function AgendaPage({ userName, userKey, onNavigateSocial, onNavigateAbou
         <div className="bg-primary p-6 flex flex-col items-center">
           <div className="flex items-center gap-2 text-primary-foreground/80 text-xs uppercase tracking-wider mb-2">
             <Calendar className="w-4 h-4" />
-            Agenda du mois
+            Agenda du mois de juin
           </div>
           <h1 className="text-2xl font-bold text-primary-foreground text-center text-balance">
             Activités prévues
