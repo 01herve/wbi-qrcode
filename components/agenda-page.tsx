@@ -21,32 +21,7 @@ interface Activity {
 
 const activities: Activity[] = [
 
-  {
-    id: "7",
-    title: "Slam : Spectacle « La Vie en Prose »",
-    description:
-      "Le quotidien mis en mots et partagé à cœur ouvert. L'artiste Jordy Mandé monte sur scène pour donner vie aux réalités, aux joies et aux épreuves de tous les jours à travers le slam. « La Vie en Prose » met en valeur la richesse de la langue française et valorise le slam comme un art de partage et d'écoute mutuelle.",
-    image: "/activities/slam.png",
-    date: "2026-06-24",
-    day: "24",
-    month: "Juin",
-    time: "Mercredi 24 juin, 17h07",
-    location: "Bureau Wallonie-Bruxelles",
-    type: "Éloquence",
-  },
-  {
-    id: "8",
-    title: "Soirée Rumba Lipanda",
-    description:
-      "Le Bureau Wallonie-Bruxelles organise la soirée « Rumba Lipanda », animée par l’orchestre Park Musica et le groupe Mambo Ya Bien. Cette soirée mettra à l'honneur la rumba congolaise à travers un répertoire mêlant grands classiques, sonorités contemporaines et nouveautés, dans une ambiance propice à la danse et à la célébration de ce patrimoine musical.",
-    image: "/activities/rumba.png",
-    date: "2026-06-26",
-    day: "26",
-    month: "Juin",
-    time: "Vendredi 26 juin, 18h00",
-    location: "Bureau Wallonie-Bruxelles",
-    type: "Musique",
-  },
+
   {
     id: "3",
     title: "Soirée d'Éloquence — Édition 8",
